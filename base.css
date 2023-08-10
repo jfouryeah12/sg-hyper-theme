@@ -1,7 +1,7 @@
 :root {
     --avatar-size: 32px;
     --background-image: url('https://github.com/SourceGoose/.github/blob/main/profile/finelogo/sg-peg.png?raw=true');
-    --background-secondary: linear-gradient(180deg, rgba(23,0,5,.75) 10%, rgba(0,0,0,1) 65%);
+    --home-image: url('https://raw.githubusercontent.com/SourceGoose/.github/main/profile/finelogo/sg-web-icon.ico');
     --font-primary: 'Rajdhani';
     --primary-text-color: lightgray;
 
@@ -53,22 +53,16 @@
     --button-secondary-background: rgba(var(--blue), 0.75);
  }
 
-/* Outer containers */
-
-body {
-	background: var(--background-image) center center/50% 100% no-repeat;
-	background-color: black;
-}
 
 #app-mount {
     background-color: transparent;
-	--background-tertiary: transparent;
-	--background-secondary: transparent;
+	--background-tertiary: black;
+	--background-secondary: black;
 }
 
 #app-mount>div[class^="appDevToolsWrapper-"] {
-	--background-primary: transparent;
-	--background-tertiary: transparent;
+	--background-primary: black;
+	--background-tertiary: black;
 	--background-secondary: rgba(var(--md-black), 0.7);
 	background-color: rgba(var(--md-black), 0.4);
 }
@@ -113,14 +107,13 @@ section[class*="themed-"] {
     ===============
  */
  ::-webkit-input-placeholder, button, input, select, textarea {
-     body {
-     background: var(--background-image) center/cover no-repeat;
- }
      font-family: var(--font-primary);
  }
+ 
 
  body {
-    background: var(--background-image) center/cover no-repeat;
+    background: var(--background-image) center center/60% 100% no-repeat;
+    background-color: black;
 }
 
  /* ===============
@@ -1387,6 +1380,16 @@ section[class*="themed-"] {
 #app-mount [data-list-item-id="guildsnav___home"]>div {
      color: transparent;
      background-color: transparent;
+ }
+
+  div[data-list-item-id="guildsnav___create-join-button"],
+ div[data-list-item-id="guildsnav___guild-discover-button"] {
+     transition: 150ms ease;
+     opacity: 0.5;
+     background-color: var(--background-solid) !important;
+     color: rgba(var(--dm-white), 0.3) !important;
+     border: 1px dashed rgba(var(--dm-white), 0.3);
+     border-radius: 50px;
  }
 
 
