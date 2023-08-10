@@ -52,15 +52,6 @@
     --button-secondary-background: rgba(var(--blue), 0.75);
  }
 
-/* Use the CSS variables to set background */
-.app-2CXKsg {
-    background-image: var(--background-primary), url(https://github.com/SourceGoose/.github/blob/main/profile/finelogo/sg-peg.png?raw=true);
-    background-size: 50% 100%, 50% 100%;
-    background-repeat: no-repeat, no-repeat;
-    background-position: center center, center center;
-    background-color: black;
-}
-
  /* ===============
      CUSTOM FONT FROM GOOGLE FONTS
     ===============
