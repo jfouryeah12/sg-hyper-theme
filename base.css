@@ -1538,28 +1538,7 @@ section[class*="themed-"] {
      background-color: rgba(var(--accent-alt), 0.9);
  }
  
-/* Codeblocks */
- 
- html pre {
-     border-radius: 0;
-     background: transparent;
-     border-color: rgba(255, 255, 255, 0.1);
- }
- 
- pre code.hljs {
-     border: none;
-     background-color: rgba(var(--dm-white), 0.1);
-     color: rgba(var(--dm-white), 0.7);
-     padding: 1em;
- }
- 
- html code.inline,
- html code.inline {
-     background: rgba(var(--dm-white), 0.1);
-     color: rgba(var(--dm-white), 0.7);
-     padding: 0.3em 0.6em;
-     border-radius: 3px;
- }
+
   /* Settings */
  
  div[aria-label*="_SETTINGS"],
@@ -1772,7 +1751,7 @@ div[class^="sidebar-"]>section>div:last-child [class^="avatarWrapper-"] {
  
 html pre {
     border-radius: 0;
-    background: blanchedalmond;
+    background: darkslategrey;
     border-color: rgba(255, 255, 255, 0.1);
 }
 
