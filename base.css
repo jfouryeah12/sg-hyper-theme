@@ -1,5 +1,5 @@
 :root {
-    --background-primary: linear-gradient(180deg, rgba(23,0,5,.75) 10%, rgba(0,0,0,1) 65%);
+    --background-image: url(https://github.com/SourceGoose/.github/blob/main/profile/finelogo/sg-peg.png?raw=true);
     --background-secondary: linear-gradient(180deg, rgba(23,0,5,.75) 10%, rgba(0,0,0,1) 65%);
     --font-primary: 'Rajdhani';
     --primary-text-color: lightgray;
@@ -51,6 +51,14 @@
     --search-popout-date-picker-hint-value-background-hover: rgba(var(--red), 0.8);
     --button-secondary-background: rgba(var(--blue), 0.75);
  }
+
+.body {
+    background-color: black;
+    background-image: var(--background-image);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
  /* ===============
      CUSTOM FONT FROM GOOGLE FONTS
