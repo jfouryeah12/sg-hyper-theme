@@ -1,6 +1,6 @@
 :root {
     --avatar-size: 32px;
-    --background-image: url('https://i.imgur.com/7SbtKvw.png');
+    --background-image: url('https://github.com/SourceGoose/.github/blob/main/profile/finelogo/sg-peg.png?raw=true');
     --background-secondary: linear-gradient(180deg, rgba(23,0,5,.75) 10%, rgba(0,0,0,1) 65%);
     --font-primary: 'Rajdhani';
     --primary-text-color: lightgray;
@@ -56,7 +56,8 @@
 /* Outer containers */
 
 body {
-	background: var(--background-image) center/cover no-repeat;
+	background: var(--background-image) center center/50% 100% no-repeat;
+	background-color: black;
 }
 
 #app-mount {
