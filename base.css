@@ -52,13 +52,6 @@
     --button-secondary-background: rgba(var(--blue), 0.75);
  }
 
-.body {
-    background-color: black;
-    background-image: var(--background-image);
-    background-size: 50% 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
 
  /* ===============
      CUSTOM FONT FROM GOOGLE FONTS
